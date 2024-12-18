@@ -14,3 +14,5 @@
 - Version Control.
 - Responsive Design Principles.
 - Browser Developer Tool Usage.
+
+  ## Completed Task 
