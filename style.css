@@ -1,0 +1,97 @@
+
+/* Styling for Landing Project Pages  */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+nav {
+    margin-left: 400px;
+}
+
+
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+
+
+ul, li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    text-decoration: none;
+}
+
+.upper-section {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-upper-section {
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+    align-items: baseline;
+    margin-right: 30px
+}
+
+.r-upper-section {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    background-color: blue;
+    width: 425px;
+}
+
+#main-title {
+    font-weight: 900;
+    font-size: 48px;
+    /* color: #F9FAF8; */
+}
+
+#subtext1 {
+    font-size: 18px;
+    /* color: #E5E7EB; */
+}
+
+
+button[type="submit"] {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
