@@ -38,6 +38,7 @@ ul, li, a {
     list-style-type: none;
     text-decoration: none;
     color: black;
+    color: white;
 }
 
 ul {
@@ -45,6 +46,7 @@ ul {
     justify-content: end;
     gap: 25px;
     text-decoration: none;
+ 
 }
 
 .upper-section {
@@ -70,7 +72,7 @@ ul {
     justify-content: center;
     align-items: center;
     margin-right: 50px;
-    background-color: blue;
+    background-color: #AEAFB3;
     width: 425px;
 }
 
@@ -94,4 +96,12 @@ button[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+  }
+
+  #quadrant-a {
+    background-color: #1F2937;
+  }
+
+  .white-font {
+    color: #F9FAF8;
   }
