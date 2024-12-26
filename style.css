@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -104,4 +104,67 @@ button[type="submit"] {
 
   .white-font {
     color: #F9FAF8;
+  }
+
+  #quadrant-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  #compound-container {
+    display: flex;
+    height: 200px; 
+    width: 700px;
+    justify-content: center;
+
+  }
+
+
+
+  .box {
+    border: 3px solid #3882F6;
+    width: 130px;
+    height: 120px;
+    border-radius: 10px;
+
+  }
+
+  .small-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  #mid-heading {
+    padding-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .bold-text {
+    font-weight: bold;
+  }
+
+  #quadrant-c {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center;  */
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+  }
+
+  #third-paragraph {
+    font-style: italic;
+    font-size: 36px light; 
+    width: 605px;
+  }
+
+  #right-text {
+    text-align: right;
+    width: 550px;
   }
