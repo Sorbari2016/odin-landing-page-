@@ -148,7 +148,7 @@ button[type="submit"] {
   }
 
   #quadrant-c {
-    height: 100px;
+    height: 200px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -167,4 +167,42 @@ button[type="submit"] {
   #right-text {
     text-align: right;
     width: 550px;
+  }
+
+  #quadrant-d {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #c2a-container {
+    height : 120px; 
+    width: 900px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  button[type="submit2"] {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 70px;
+    height: 30px;
+    width: 120px;
+  }
+
+  .white-text {
+    color: white;
+  }
+
+  #c2a-text {
+    font-size: 22px;
   }
