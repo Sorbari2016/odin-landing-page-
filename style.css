@@ -171,7 +171,7 @@ button[type="submit"] {
 
   #quadrant-d {
     display: flex;
-    height: 200px;
+    height: 300px;
     justify-content: center;
     align-items: center;
   }
@@ -206,3 +206,17 @@ button[type="submit"] {
   #c2a-text {
     font-size: 22px;
   }
+
+  footer {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    color: #555;
+    font-size: 0.9em;
+    border-top: 1px solid #ddd;
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
