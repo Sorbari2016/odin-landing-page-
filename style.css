@@ -35,7 +35,7 @@ body {
 /*This very first section has a dark, cool blue color, seen no other section  */
 #quadrant-a {
     background-color: #1F2937;
-    height: 450px; 
+    height: 450px;
   }
 
 
@@ -193,6 +193,7 @@ button[type="submit"] {
 #quote-text{
     font-style: italic;
     font-size: 36px lighter; 
+
     width: 605px;
 }
 
