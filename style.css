@@ -1,93 +1,127 @@
+/* Styling for the landing page project */
 
-/* Styling for Landing Project Pages  */
-
+/* A key important step in the styling, I want the overall size of the boxes to always remain the same  */
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
-
+/* Font instructed to use - Roboto */
 body {
-   font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Roboto', sans-serif;
+ }
 
-.header {
+
+
+/* SECTION 1 */
+
+/* Rule that will flex most containers and place their items in the middle */
+.f-container,
+#qa-main-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    
 }
 
+/* Specific styling for header logo and the header links */
+#header {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
 
+/*This very first section has a dark, cool blue color, seen no other section  */
+#quadrant-a {
+    background-color: #1F2937;
+    height: 450px; 
+  }
+
+
+/* for all the elements that needs to be bold */
+.bold-text, #header-logo {
+    font-weight: 900;
+}
+
+/* for all the element that needs a white font color */
+.white-text {
+    color: #f9faf8;
+}
+
+#header-logo {
+    font-size: 24px;
+}
+
+/* To create a big space between the header links and the header logo */
 nav {
     margin-left: 400px;
 }
 
-
-
-.header-logo {
-    font-size: 24px;
-    font-weight: bold;
-
-}
-
-
-
+/* To remove the underline, bullet points from the link as well as make it white */
 ul, li, a {
     list-style-type: none;
     text-decoration: none;
-    color: black;
     color: white;
 }
 
+
+/* To create space between the links, push them to the end of the header container, and make them orient horizontally */
 ul {
     display: flex;
     justify-content: end;
     gap: 25px;
-    text-decoration: none;
- 
 }
 
-.upper-section {
-    display: flex;
-    height: 300px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+/* Specific styling for the main portion of the quadrant a */
+#qa-main-container {
+    height: 300px; 
+    gap: 60px;
+   
 }
 
-.l-upper-section {
+
+/*  Rule for flexing item in a vertical orientation */
+.f-vertical {
     display: flex;
     flex-direction: column;
-    width: 425px;
+}
+
+/* Flex styling for the both the left and right containers of the main portion of quadrant a  */
+.qa-main-dual {
+    width: 400px;
+    height: 50%;
+    
+}
+
+/* Container that containers the left items of the main portion of quadrant a  */
+#qa-main-left {
     align-items: baseline;
-    margin-right: 30px
 }
 
-.r-upper-section {
+/* Container that containers the right items of the main portion of quadrant a  */
+#qa-main-right {
     display: flex;
-    flex-direction: column;
-    height: 70%;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
-    background-color: #AEAFB3;
-    width: 425px;
+    margin-right: 20px;
+    margin-top: 70px;
+    background-color: #6B727C;
+    height: 73%;
+    width: 450px;
 }
 
-#main-title {
-    font-weight: 900;
+/* Specific styling for the "This is awesome" text  */
+#main-text {
     font-size: 48px;
-    /* color: #F9FAF8; */
 }
 
-#subtext1 {
+/* Styling for all other text that are not all that big */
+.mid-text {
     font-size: 18px;
-    /* color: #E5E7EB; */
 }
 
-
+/* Styling for the very first sign up button */
 button[type="submit"] {
     background-color: #3882F6;
     color: white;
@@ -96,98 +130,101 @@ button[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-  }
-
-  #quadrant-a {
-    background-color: #1F2937;
-  }
-
-  .white-font {
-    color: #F9FAF8;
-  }
-
-  #quadrant-b {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-  }
-
-  #compound-container {
-    display: flex;
-    height: 200px; 
-    width: 700px;
-    justify-content: center;
-
-  }
-
-
-
-  .box {
-    border: 3px solid #3882F6;
+    margin-top: 7px;
     width: 130px;
-    height: 120px;
-    border-radius: 10px;
-
+    font-size: 14px;
   }
 
-  .small-container {
+/* SECTION 2 */
+/* Rule for the main container for the second portion */
+#quadrant-b {
+    align-items: center;
+    height: 400px;
+  }
+
+/* Rule for element with black font */
+.black-text {
+    color: black;
+}
+
+/* Rule for the header for the second portion */
+#mid-heading {
+    font-size: 36px;
+    width: 670px;
+    text-align: center;
+    padding-bottom: 45px;
+    justify-content: baseline;
+}
+
+
+/* Rule for large container which will smaller containers with text beneath */
+#box-parcel {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    width: 730px;
+}
+
+
+/* Rule for small containers which a curved shaped define shape and a line of subtext */
+.box-container {
     text-align: center;
     align-items: center;
-  }
+}
 
-  #mid-heading {
-    padding-bottom: 20px;
-    font-size: 36px;
-  }
+/* Rule for the box - curved border defined space */
+.box {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+}
 
-  .bold-text {
-    font-weight: bold;
-  }
 
-  #quadrant-c {
-    height: 200px;
+/* SECTION 3 */
+
+/* Rule for the 3rd section enveloping container */
+#quadrant-c {
+    height: 300px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* text-align: center;  */
-    align-items: center;
-    justify-content: center;
     background-color: #E5E7EB;
-  }
+}
 
-  #third-paragraph {
+/* Styling the quote in the third section */
+#quote-text{
     font-style: italic;
-    font-size: 36px light; 
+    font-size: 36px lighter; 
     width: 605px;
-  }
+}
 
-  #right-text {
+
+
+/* Styling for the author text of the quote below */
+#author-text {
     text-align: right;
     width: 550px;
-  }
+}
 
-  #quadrant-d {
-    display: flex;
+
+/* SECTION 4 */
+
+/* The final quadrant */
+#quadrant-d {
     height: 300px;
-    justify-content: center;
-    align-items: center;
-  }
+}
 
-  #c2a-container {
-    height : 120px; 
+/* Styling for the call to action container */
+#c2a-container {
+    height : 140px; 
     width: 900px;
     display: flex;
     background-color: #3882F6;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
-  }
+}
 
-
-  button[type="submit2"] {
+/* Styling for the second sign up button */
+button[type="submit2"] {
     background-color: #3882F6;
     color: white;
     border: 2px solid white;
@@ -196,22 +233,22 @@ button[type="submit"] {
     font-weight: bold;
     margin-left: 70px;
     height: 30px;
-    width: 120px;
+    width: 130px;
+    font-size: 14px;
   }
 
-  .white-text {
-    color: white;
-  }
 
+/* Styling for call to action main bold text */
   #c2a-text {
     font-size: 22px;
   }
 
-  footer {
+/* FOOTER */
+footer {
     padding: 1rem;
     background-color: #f8f9fa;
     color: #555;
-    font-size: 0.9em;
+    font-size: 18px;
     border-top: 1px solid #ddd;
     background-color: #1F2937;
     color: white;
