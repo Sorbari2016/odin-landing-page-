@@ -15,5 +15,5 @@
 - Responsive Design Principles.
 - Browser Developer Tool Usage.
 
-  ## Completed Task 
+## Completed Task 
 [My landing page project](https://sorbari2016.github.io/odin-landing-page-/)
